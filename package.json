@@ -1,6 +1,6 @@
 {
   "name": "@hzblj/eslint-config",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Opinionated ESLint (flat config) for TypeScript / React / React Native — Prettier, import & key sorting, accessibility. Ships base, react, and react-native presets.",
   "author": "Jan Blazej",
   "license": "MIT",
