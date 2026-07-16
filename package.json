@@ -1,5 +1,5 @@
 {
-  "name": "@janblazej/eslint-config-react-native",
+  "name": "@hzblj/eslint-config-react-native",
   "version": "0.1.2",
   "description": "Opinionated ESLint config for React Native projects with TypeScript, Prettier, accessibility, and import sorting support.",
   "main": "index.js",
@@ -26,12 +26,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/janblazej/eslint-config-react-native.git"
+    "url": "git+https://github.com/hzblj/eslint-config-react-native.git"
   },
   "bugs": {
-    "url": "https://github.com/janblazej/eslint-config-react-native/issues"
+    "url": "https://github.com/hzblj/eslint-config-react-native/issues"
   },
-  "homepage": "https://github.com/janblazej/eslint-config-react-native#readme",
+  "homepage": "https://github.com/hzblj/eslint-config-react-native#readme",
   "peerDependencies": {
     "@eslint/js": "^9.27.0",
     "eslint-plugin-sort-keys-fix": "^1.1.2",

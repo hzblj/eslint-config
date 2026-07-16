@@ -16,7 +16,7 @@ A comprehensive ESLint configuration for React Native projects, with TypeScript,
 First, install this config and its peer dependencies:
 
 ```sh
-yarn add -D @janblazej/eslint-config-react-native
+yarn add -D @hzblj/eslint-config-react-native
 ```
 
 ### Peer & Required Dependencies
@@ -48,14 +48,14 @@ In your project root, create (or update) your ESLint config file (e.g. `.eslintr
 ### For `eslint.config.js` (recommended for ESLint v9+):
 
 ```js
-import config from '@janblazej/eslint-config-react-native'
+import config from '@hzblj/eslint-config-react-native'
 export default config
 ```
 
 If you need to override or extend any rules, you can do so in your own ESLint config file.
 
 ```js
-import config from '@janblazej/eslint-config-react-native'
+import config from '@hzblj/eslint-config-react-native'
 
 export default [
     ...config,
