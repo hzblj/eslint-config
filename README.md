@@ -1,4 +1,7 @@
-# eslint-config-react-native
+# @hzblj/eslint-config-react-native
+
+[![npm](https://img.shields.io/npm/v/@hzblj/eslint-config-react-native.svg)](https://www.npmjs.com/package/@hzblj/eslint-config-react-native)
+[![license](https://img.shields.io/npm/l/@hzblj/eslint-config-react-native.svg)](./LICENSE)
 
 A comprehensive ESLint configuration for React Native projects, with TypeScript, Prettier, accessibility, and import sorting support. Built for consistency, best practices, and ease of use.
 
