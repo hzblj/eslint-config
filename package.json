@@ -1,51 +1,66 @@
 {
-  "name": "@hzblj/eslint-config-react-native",
-  "version": "0.1.3",
-  "description": "Opinionated ESLint config for React Native projects with TypeScript, Prettier, accessibility, and import sorting support.",
-  "main": "index.js",
+  "name": "@hzblj/eslint-config",
+  "version": "0.0.0",
+  "description": "Opinionated ESLint (flat config) for TypeScript / React / React Native — Prettier, import & key sorting, accessibility. Ships base, react, and react-native presets.",
   "author": "Jan Blazej",
   "license": "MIT",
-  "private": false,
   "type": "module",
   "exports": {
-    ".": "./index.js"
+    ".": "./configs/base.js",
+    "./base": "./configs/base.js",
+    "./react": "./configs/react.js",
+    "./react-native": "./configs/react-native.js"
   },
+  "files": [
+    "configs"
+  ],
   "keywords": [
     "eslint",
     "eslintconfig",
-    "react-native",
+    "eslint-config",
+    "flat-config",
     "typescript",
     "prettier",
-    "eslint-plugin",
-    "lint",
-    "javascript",
     "react",
+    "react-native",
+    "expo",
     "a11y",
     "import-sorting",
-    "expo"
+    "lint"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hzblj/eslint-config-react-native.git"
+    "url": "git+https://github.com/hzblj/eslint-config.git"
   },
   "bugs": {
-    "url": "https://github.com/hzblj/eslint-config-react-native/issues"
+    "url": "https://github.com/hzblj/eslint-config/issues"
   },
-  "homepage": "https://github.com/hzblj/eslint-config-react-native#readme",
+  "homepage": "https://github.com/hzblj/eslint-config#readme",
+  "scripts": {
+    "changeset": "changeset",
+    "changeset:version": "changeset version",
+    "release": "changeset publish",
+    "test": "bash scripts/smoke-test.sh"
+  },
   "peerDependencies": {
     "@eslint/js": "^9.27.0",
-    "eslint-plugin-sort-keys-fix": "^1.1.2",
-    "eslint-config-expo": "~9.2.0",
+    "eslint": "^9.27.0",
     "eslint-config-prettier": "^10.1.5",
     "eslint-plugin-jsx-a11y": "^6.10.2",
     "eslint-plugin-prettier": "^5.4.0",
     "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-simple-import-sort": "^12.1.1",
-    "eslint-plugin-unused-imports": "4.1.4",
+    "eslint-plugin-sort-keys-fix": "^1.1.2",
+    "prettier": "^3.0.0",
     "typescript-eslint": "^8.32.1"
+  },
+  "devDependencies": {
+    "@changesets/changelog-github": "0.7.0",
+    "@changesets/cli": "2.31.1"
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "packageManager": "yarn@4.17.1"
 }

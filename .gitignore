@@ -1,2 +1,11 @@
-node_modules
-.idea
+node_modules/
+.DS_Store
+.idea/
+.claude/
+
+# Yarn (Berry) — corepack provides Yarn via packageManager; don't track .yarn
+.yarn/
+.pnp.*
+
+# npm pack / publish artifacts
+*.tgz
