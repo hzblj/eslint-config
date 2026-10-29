@@ -126,6 +126,10 @@ Install the [ESLint VS Code extension](https://marketplace.visualstudio.com/item
 }
 ```
 
+## Sponsorship
+
+<a href="https://www.buymeacoffee.com/hzblj"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me a Coffee" height="48"></a>
+
 ## License
 
 [MIT](https://github.com/hzblj/eslint-config/blob/main/LICENSE) © Jan Blazej
